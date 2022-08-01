@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+  <title>Hilux</title>
+  <link rel="icon" type="images/favicon" href="HatchfulExport-All/favicon.png">
+  <link rel="stylesheet" href="style.css"></style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!----fonts link from google------>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                <img src="abc.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="allproduct.html">All | Product</a></li>
+                    <li><a href="register.html">Register | Product</a></li>
+                    <li><a href="carinfo.html">Product | Info</a></li>
+                </ul>
+            </nav>
+            <img src="images/icon-menu-png-5.jpeg" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <!----------Single Product details--------->
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="images/15a3deed3e96c4e81b3f5f935c40d5ed.png" width="100%" id="ProductImg">
+        <div class="small-img-row">
+        <div class="small-img-col">
+        <img src="images/15a3deed3e96c4e81b3f5f935c40d5ed.png" width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+        <img src="images/15a3deed3e96c4e81b3f5f935c40d5ed.png" width="100%" class="small-img">
+        </div>
+        <div class="small-img-col"> 
+        <img src="images/15a3deed3e96c4e81b3f5f935c40d5ed.png" width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+        <img src="images/15a3deed3e96c4e81b3f5f935c40d5ed.png" width="100%" class="small-img">
+        </div>
+        </div>
+    
+        </div>
+        <div class="col-2">
+            <p>Home / Maserati</p>
+            <h1>Luxury Car | 2022</h1>
+            <h4>$400000.99</h4>
+            <select>
+                <option>Select Color</option>
+                <option>Red</option>
+                <option>Black</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Add To Cart</a>
+            <h3>Product Details <i class="fa fa-indent" aria-hidden="true"></i></h3>
+            <br>
+            <p>The Maserati Quattroporte has 1 Diesel Engine and 2 Petrol Engine on offer. The Diesel engine is 2999 cc while the Petrol engine is 2979 cc and 3799 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the Quattroporte has a mileage of 11.76 kmpl & Ground clearance of Quattroporte is 100mm. The Quattroporte is a 5 seater 8 cylinder car and has length of 5262mm, width of 2128mm and a wheelbase of 3171mm.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <!----footer------->
+         <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download ABC APP</h3>
+                        <p>Download App For Both Apple & Android phone. </p>
+                        <div class="app-logo">
+                            <img src="images/24-243000_download-our-app-from-playstore.png">
+                            <img src="images/Download-On-The-App-Store-PNG-Transparent-Image.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="abc.png">
+                        <p>Our Goal is to provide best car for sale and rental</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog</li>
+                            <li>Return Policy</li>
+                            <li>Affiliate Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Follow Our Social Medias</h3>
+                        <ul>
+                            <li>Instagram</li>
+                            <li>Linkedn</li>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2022 - All rights reserved</p>
+            </div>
+        </div></div>
+<!-------Javascript for toggle menu----------------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight ="0px";
+    function menutoggle()
+    {
+        if(MenuItems.style.maxHeight ="0px")
+        {
+            MenuItems.style.maxHeight ="200px";
+        }
+        else{
+            MenuItems.style.maxHeight ="0px";
+        }
+    }
+    </script>
+</body>
+</html>
